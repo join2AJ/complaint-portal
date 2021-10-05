@@ -3,7 +3,7 @@
 <div class="container">
   {% for message in get_flashed_messages() %}
   <div class="alert alert-warning" style="background-color:rgb(62,61,64); color: rgb(247,246,255)">
-    <button type="button" class="close" style="color: rgb(247,246,255" data-dismiss="alert">&times;</button>
+    <button type="button" class="close" style="color: rgb(247,246,255)" data-dismiss="alert">&times;</button>
     {{ message }}
   </div>
     {% endfor %}
